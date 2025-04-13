@@ -297,4 +297,4 @@ def ffsampling_ziggurat(t, T, sigmin, randombytes):
         z[0] = [samplerz(t[0][0].real, sigma0, sigmin, randombytes)]
         z[1] = [samplerz(t[1][0].real, sigma1, sigmin, randombytes)]
         
-        return z 
+        return z

@@ -1,0 +1,3 @@
+import falcon_ACB as falcon
+sk = falcon.SecretKey(512)
+sig = sk.sign(b"Hello")
